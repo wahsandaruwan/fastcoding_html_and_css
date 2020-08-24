@@ -1,0 +1,344 @@
+<!-- ===================HTML and CSS Fast Code Cheat Sheet with Emmet================ -->
+<!-- ==============Html Template & Doc Type============== -->
+<!-- ! -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+<!-- html:5 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+<!-- ==========Basic Tags============ -->
+
+<!-- h1 -->
+<h1></h1>
+
+<!-- div -->
+<div></div>
+
+<!-- b -->
+<b></b>
+
+<!-- hr -->
+<hr>
+
+<!-- br -->
+<br>
+
+<!-- link -->
+<link rel="stylesheet" href="">
+
+<!-- p -->
+<p></p>
+
+<!-- meta -->
+<meta>
+
+
+<!-- ==========Shortcuts for Tags========= -->
+
+<!-- bq -->
+<blockquote></blockquote>
+
+<!-- hdr -->
+<header></header>
+
+<!-- ftr -->
+<footer></footer>
+
+<!-- btn -->
+<button></button>
+
+<!-- sec -->
+<section></section>
+
+<!-- as -->
+<aside></aside>
+
+<!-- art -->
+<article></article>
+
+<!-- n -->
+<nav></nav>
+
+<!-- fig -->
+<figure></figure>
+
+<!-- im -->
+<img src="" alt="">
+
+<!-- in -->
+<input type="text" name="" id="">
+
+<!-- la -->
+<label for=""></label>
+
+<!-- sc -->
+<script></script>
+
+<!-- ab -->
+<abbr title=""></abbr>
+
+<!-- tab -->
+<table></table>
+
+<!-- sel -->
+<select name="" id=""></select>
+
+<!-- m -->
+<main></main>
+
+
+<!-- =============Classes================ -->
+
+<!-- .myheading -->
+<div class="myheading"></div>
+
+<!-- h1.myheading -->
+<h1 class="myheading"></h1>
+
+<!-- .cls1.cls2 -->
+<div class="cls1 cls2"></div>
+
+<!-- h1.cls1.cls2 -->
+<h1 class="cls1 cls2"></h1>
+
+
+<!-- ============Ids==================== -->
+
+<!-- #myid -->
+<div id="myid"></div>
+
+<!-- h1#myid -->
+<h1 id="myid"></h1>
+
+<!-- #myid.cls1 -->
+<div id="myid" class="cls1"></div>
+
+<!-- #myid.cls1.cls2 -->
+<div id="myid" class="cls1 cls2"></div>
+
+<!-- h1#myid.cls1.cls2 -->
+<h1 id="myid" class="cls1 cls2"></h1>
+
+
+<!-- ===================With Content=============== -->
+
+<!-- div{My Title} -->
+<div>My Title</div>
+
+<!-- div.cls1{My Title} -->
+<div class="cls1">My Title</div>
+
+<!-- #myid.cls1{My Title} -->
+<div id="myid" class="cls1">My Title</div>
+
+<!-- h1#myid.cls1.cls2{My Title} -->
+<h1 id="myid" class="cls1 cls2">My Title</h1>
+
+
+<!-- ===============Nested Elements=============== -->
+
+<!-- div>ul>li -->
+<div>
+    <ul>
+        <li></li>
+    </ul>
+</div>
+
+<!-- nav>ul>li{List Item} -->
+<nav>
+    <ul>
+        <li>List Item</li>
+    </ul>
+</nav>
+
+<!-- nav#n1>ul.menu>li{My List} -->
+<nav id="n1">
+    <ul class="menu">
+        <li>My List</li>
+    </ul>
+</nav>
+
+
+<!-- ==============Multiplication============= -->
+
+<!-- nav>ul>li{List Item}*5 -->
+<nav>
+    <ul>
+        <li>List Item</li>
+        <li>List Item</li>
+        <li>List Item</li>
+        <li>List Item</li>
+        <li>List Item</li>
+    </ul>
+</nav>
+
+<!-- nav>ul#myid>li{List Item}*5 -->
+<nav>
+    <ul id="myid">
+        <li>List Item</li>
+        <li>List Item</li>
+        <li>List Item</li>
+        <li>List Item</li>
+        <li>List Item</li>
+    </ul>
+</nav>
+
+<!-- nav>ul>li{List Item $}*5 -->
+<nav>
+    <ul>
+        <li>List Item 1</li>
+        <li>List Item 2</li>
+        <li>List Item 3</li>
+        <li>List Item 4</li>
+        <li>List Item 5</li>
+    </ul>
+</nav>
+
+
+<!-- ==================Siblings================ -->
+
+<!-- div+div+section+h1 -->
+<div></div>
+<div></div>
+<section></section>
+<h1></h1>
+
+<!-- div#myid+div.cls1+section#myid1 -->
+<div id="myid"></div>
+<div class="cls1"></div>
+<section id="myid1"></section>
+
+<!-- div#myid>div.cls1+div.cls2>ul.menu>li{List Item $}*5 -->
+<div id="myid">
+    <div class="cls1"></div>
+    <div class="cls2">
+        <ul class="menu">
+            <li>List Item 1</li>
+            <li>List Item 2</li>
+            <li>List Item 3</li>
+            <li>List Item 4</li>
+            <li>List Item 5</li>
+        </ul>
+    </div>
+</div>
+
+
+<!-- =====================Grouping============== -->
+
+<!-- div>(header>ul.menu>li*2>a>i.fas)+footer>p.para -->
+<div>
+    <header>
+        <ul class="menu">
+            <li><a href=""><i class="fas"></i></a></li>
+            <li><a href=""><i class="fas"></i></a></li>
+        </ul>
+    </header>
+    <footer>
+        <p class="para"></p>
+    </footer>
+</div>
+
+
+<!-- =====================Attributes================== -->
+
+<!-- a[href="http://google.com" target="_blank"]  -->
+<a href="http://google.com" target="_blank"></a> 
+
+<!-- form:get -->
+<form action="" method="get"></form>
+
+<!-- form:post -->
+<form action="" method="post"></form>
+
+<!-- form[action="./inc/my.php" method="post"] -->
+<form action="./inc/my.php" method="post"></form>
+
+<!-- la[for="#sm"] -->
+<la for="#sm"></la>
+
+<!-- input -->
+<input type="text">
+
+<!-- input:number -->
+<input type="number" name="" id="">
+
+<!-- input:email -->
+<input type="email" name="" id="">
+
+<!-- input:reset -->
+<input type="reset" value="">
+
+<!-- input:s -->
+<input type="submit" value="">
+
+<!-- input:i -->
+<input type="image" src="" alt="">
+
+<!-- input:i[src="./img/1.png"] -->
+<input type="image" src="./img/1.png" alt="">
+
+<!-- select:d -->
+<select name="" id="" disabled="disabled"></select>
+
+<!-- meta:utf -->
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+
+<!-- meta:vp -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- meta:kw -->
+<meta name="keywords" content="">
+
+
+<!-- ======================Dummy Text============== -->
+
+<!-- lorem -->
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo maiores fugiat dolor totam corrupti officia odio dolores est culpa omnis! Et natus doloribus voluptatibus ad ab, velit libero repellendus repudiandae.
+
+<!-- lorem10 -->
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, dolor!
+
+<!-- ul.mylist>lorem10.item*5 -->
+<ul class="mylist">
+    <li class="item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, cum.</li>
+    <li class="item">Numquam ea cupiditate accusamus, et reprehenderit corporis deleniti reiciendis labore!</li>
+    <li class="item">Cum laboriosam maxime iste iure, recusandae a alias magnam aliquam.</li>
+    <li class="item">Minus autem amet distinctio earum voluptatum sequi iure possimus neque?</li>
+    <li class="item">Porro temporibus voluptatibus error sint, earum accusamus sed ipsum nihil!</li>
+</ul>
+
+
+<!-- ================Shortcuts for Editor================== -->
+
+<!-- ================Comment & Uncomment============ -->
+
+<!-- ctrl + / -->
+
+<!-- ===========Select through Items============ -->
+
+<!-- ctrl + shift + . -->
+<!-- ctr + shift + ,  -->
+
+<!-- =================Move things up and down========== -->
+
+<!-- ctrl + up or down -->
